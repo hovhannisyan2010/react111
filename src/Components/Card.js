@@ -10,3 +10,4 @@ function Card({films}) {
 }
 
 export default Card
+

@@ -5,26 +5,41 @@
   gap: 30px;
   flex-wrap: wrap;
 }
-.card{
+
+.card {
   width: 400px;
   height: 600px;
 }
-.img{
+
+.img {
   width: 400px;
   height: 500px;
 }
 
-.pages{
+.pages {
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
 }
 
-.parent{
+.parent {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
   flex-wrap: wrap;
+}
+
+.ganres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.ganres>button {
+  padding: 9px 11px;
+  background-color: black;
+  color: white;
 }
